@@ -5,7 +5,7 @@ Module contains:
 '''
 
 class WithoutParenthesis(object):
-'''  
+  '''\
  usage:
 In python terminal, you can call a function without parenthesis, 
 if it has no arguments:
