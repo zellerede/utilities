@@ -34,7 +34,7 @@ equivalently,
     self._func()
     return ''
   def __call__(self, *args, **kws):
-    self.func(*args, **kws)
+    self._func(*args, **kws)
 
 def Without():
   return WithoutParenthesis
