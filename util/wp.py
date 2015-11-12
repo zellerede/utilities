@@ -41,3 +41,14 @@ def Without():
 
 Without.__doc__ = WithoutParenthesis.__doc__
 
+###########################################
+#
+# additional stuff:
+#   type Q or quit  (without parenthesis)
+#   to quit service terminal
+#
+###########################################
+@Without()
+def quit():
+	exit()
+Q=quit
